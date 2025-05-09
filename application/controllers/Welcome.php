@@ -24,6 +24,9 @@ class Welcome extends CI_Controller {
 	}
 	public function test()
 	{
-		$this->load->view('test');
+		//$this->load->view('test');
+		$this->load->library('template');
+        $data=['title'=>'Home'];
+        $this->template->load('pages','home',$data);
 	}
 }
