@@ -3,8 +3,8 @@
 			<!-- Logo Header -->
 			<div class="logo-header" data-background-color="blue">
 				
-				<a href="../index.html" class="logo">
-					<img src="<?= file_url('includes/img/logo.svg'); ?>" alt="navbar brand" class="navbar-brand">
+				<a href="<?= base_url('/') ?>" class="logo">
+					<img src="<?= LOGO_LIGHT; ?>" alt="navbar brand" class="navbar-brand">
 				</a>
 				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon">
@@ -246,7 +246,7 @@
 										<div class="dropdown-divider"></div>
 										<a class="dropdown-item" href="#">Account Setting</a>
 										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="#">Logout</a>
+										<a class="dropdown-item" href="<?= base_url($root_path.'logout'); ?>">Logout</a>
 									</li>
 								</div>
 							</ul>

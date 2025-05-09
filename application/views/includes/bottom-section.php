@@ -11,7 +11,7 @@
                 $msg=$this->session->flashdata('msg');
                 $err_msg=$this->session->flashdata('err_msg');
         ?>
-        <div class="toastr-notify d-none" data-position="toast-top-center" data-status="<?= !empty($msg)?'success':'error'; ?>" data-title="<?= !empty($msg)?'Success':'Error'; ?>"><?= !empty($msg)?$msg:$err_msg; ?></div>
+        <div class="notify toastr-notify d-none" data-from="top" data-align="right" data-status="<?= !empty($msg)?'success':'danger'; ?>" data-title="<?= !empty($msg)?'Success':'Error'; ?>"><?= !empty($msg)?$msg:$err_msg; ?></div>
         <?php
             }
         ?>

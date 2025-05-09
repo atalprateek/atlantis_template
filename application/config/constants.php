@@ -83,3 +83,13 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+///////////////////////////////////////////////
+defined('PROJECT_NAME')        OR define('PROJECT_NAME',"Atlantis"); 
+defined('OUR_BRAND')       	   OR define('OUR_BRAND',"");
+defined('SITE_SALT')           OR define('SITE_SALT',"Atlantis");
+defined('TP')        		   OR define('TP',"at_"); // Table Prefix
+defined('NTYPE')               OR define('NTYPE',"bootstrap"); //Notification Type
+defined('REQUEST_LOG')         OR define('REQUEST_LOG',FALSE); //API Log
+defined('LOGO')                OR define('LOGO','includes/img/logo2.svg'); 
+defined('LOGO_LIGHT')          OR define('LOGO_LIGHT','includes/img/logo.svg'); 

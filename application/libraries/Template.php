@@ -23,6 +23,7 @@ class Template {
         $data['content']=$contentpath;
         $data['footer']=$footerpath;
         $data['page_type']=$type;
+		$data['root_path']=$root;
         
         
 		if(!empty($data['styles'])){ 

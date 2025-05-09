@@ -84,7 +84,7 @@
     <?php
         if($page_type=='auth'){
     ?>
-    <body class="hold-transition login-page" style="background-image:url('<?= file_url('assets/images/bg.jpg'); ?>')">
+    <body class="hold-transition login-page">
     <?php
         }
         else{
