@@ -93,3 +93,8 @@ defined('NTYPE')               OR define('NTYPE',"bootstrap"); //Notification Ty
 defined('REQUEST_LOG')         OR define('REQUEST_LOG',FALSE); //API Log
 defined('LOGO')                OR define('LOGO','includes/img/logo2.svg'); 
 defined('LOGO_LIGHT')          OR define('LOGO_LIGHT','includes/img/logo.svg'); 
+
+defined('LOGO_HEADER_BG')      OR define('LOGO_HEADER_BG','dark'); 
+defined('HEADER_BG')           OR define('HEADER_BG','dark'); 
+defined('SIDEBAR_BG')          OR define('SIDEBAR_BG','dark'); 
+defined('CONTENT_BG')          OR define('CONTENT_BG','dark'); 

@@ -7,7 +7,11 @@ class Template {
 	private $top_script=array("link"=>array(),"file"=>array());
 	private $content_script=array("link"=>array(),"file"=>array());
 	private $bottom_script=array("link"=>array(),"file"=>array());
-    var $isAdmin=FALSE;
+	private $header_bg=array('dark','blue','purple','light-blue','green','orange','red','dark2','blue2','purple2','light-blue2','green2','orange2','red2','white');
+	private $sidebar_bg=array('dark','dark2','white');
+	private $content_bg=array('dark','bg1','bg2','bg3');
+    
+	var $isAdmin=FALSE;
       
     function __construct() {
        $this->ci =& get_instance();
