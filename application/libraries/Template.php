@@ -105,7 +105,6 @@ class Template {
 			$this->loadalertify();
 		}
 		
-		$this->loadtoastr();
         $data['styles']=$this->styles;
 		$data['top_script']=$this->top_script;
 		$data['content_script']=$this->content_script;

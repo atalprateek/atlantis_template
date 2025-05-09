@@ -91,6 +91,8 @@
         <!-- jQuery UI -->
         <script src="<?= file_url('includes/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js'); ?>"></script>
         <script src="<?= file_url('includes/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js'); ?>"></script>
+        <!-- Bootstrap Notify -->
+        <script src="<?= file_url('includes/js/plugin/bootstrap-notify/bootstrap-notify.min.js'); ?>"></script>
 
         <!-- jQuery Scrollbar -->
         <script src="<?= file_url('includes/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js'); ?>"></script>
