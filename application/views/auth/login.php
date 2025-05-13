@@ -10,6 +10,21 @@
         /* padding: 20px 40px; */
         box-shadow: 0 0 24px 0 rgba(3, 31, 66, 0.1);
     }
+    @media (max-width: 350px){
+        .card {
+            width: 95%;
+        }
+    }
+    @media (min-width: 351px) and (max-width: 425px){
+        .card {
+            width: 80%;
+        }
+    }
+    @media (min-width: 426px) and (max-width: 768px) {
+        .card {
+            width: 70%;
+        }
+    }
 </style>
             <div class="login-box">
                 <div class="container">
