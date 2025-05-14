@@ -1,2 +1,29 @@
 /* CSS Document */
 
+.login-box{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.login-box .card{
+    width: 40%;
+    margin: 0 auto;
+    /* padding: 20px 40px; */
+    box-shadow: 0 0 24px 0 rgba(3, 31, 66, 0.1);
+}
+@media (max-width: 350px){
+    .login-box .card {
+        width: 95%;
+    }
+}
+@media (min-width: 351px) and (max-width: 425px){
+    .login-box .card {
+        width: 80%;
+    }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+    .login-box .card {
+        width: 70%;
+    }
+}
+
